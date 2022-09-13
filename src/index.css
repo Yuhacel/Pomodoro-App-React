@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* { 
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+.navbar {
+  padding: 60px;
+  display:flexbox;
+  align-items:center;
+  max-width: 600px;
+  margin: 0 auto ;
+  border-right: 10px solid #94dbb0;
+  border-left: 10px solid #94dbb0;
+  border-top: 10px solid #94dbb0;
+  border-bottom: 10px solid #94dbb0;
+}
+
+
+.navbar h1 {  /* big title */
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+  color: #6237e4;
+}
+
+
+.navbar a {   /* under the title, the links */
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+
+.links {
+  color:#333;
+}
+
+
+.navbar a:hover {
+  color: #c829b3;
+}
+
+
+.home {
+  padding: 10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flexbox;
+  align-items:center;
+}
+
+
+.mainbar h2 {
+  
+  border-bottom: 1px solid #6237e4;
+  align-items: center;
+}
+
+.studyalone {
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.studywithfriends {
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+
+.content {
+  border-right: 10px solid #0c8c98;
+  border-left: 10px solid #0c8c98;
+  border-top: 10px solid #0c8c98;
+  border-bottom: 10px solid #0c8c98;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+}
